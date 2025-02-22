@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Image Slider</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>World's Beautiful Cities</h1>
+            <p>Experience the urban wonders around the globe</p>
+        </header>
+
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide active">
+                    <img src="https://images.pexels.com/photos/1530259/pexels-photo-1530259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Paris">
+                    <div class="slide-content">
+                        <h2>Paris, France</h2>
+                        <p>The City of Light, home to the iconic Eiffel Tower</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Tokyo">
+                    <div class="slide-content">
+                        <h2>Tokyo, Japan</h2>
+                        <p>A vibrant metropolis blending tradition and innovation</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="New York">
+                    <div class="slide-content">
+                        <h2>New York City, USA</h2>
+                        <p>The city that never sleeps, a global cultural hub</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.pexels.com/photos/28344810/pexels-photo-28344810/free-photo-of-busy-dubai-traffic-amid-skyscrapers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dubai">
+                    <div class="slide-content">
+                        <h2>Dubai, UAE</h2>
+                        <p>A futuristic city rising from the desert</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.pexels.com/photos/1796736/pexels-photo-1796736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Venice">
+                    <div class="slide-content">
+                        <h2>Venice, Italy</h2>
+                        <p>The romantic city of canals and gondolas</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-controls">
+                <button class="prev-btn" aria-label="Previous slide">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="next-btn" aria-label="Next slide">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div class="thumbnail-container">
+                <div class="thumbnail active" data-index="0">
+                    <img src="https://images.pexels.com/photos/1530259/pexels-photo-1530259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                </div>
+                <div class="thumbnail" data-index="1">
+                    <img src="https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Tokyo Thumbnail">
+                </div>
+                <div class="thumbnail" data-index="2">
+                    <img src="https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="New York Thumbnail">
+                </div>
+                <div class="thumbnail" data-index="3">
+                    <img src="https://images.pexels.com/photos/28344810/pexels-photo-28344810/free-photo-of-busy-dubai-traffic-amid-skyscrapers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dubai Thumbnail">
+                </div>
+                <div class="thumbnail" data-index="4">
+                    <img src="https://images.pexels.com/photos/1796736/pexels-photo-1796736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Venice Thumbnail">
+                </div>
+            </div>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by Thathireddy Gnanendra Reddy | MOTIONCUT Web Development Internship</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
