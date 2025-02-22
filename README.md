@@ -101,7 +101,7 @@ Tested and working on:
 
 ## Author
 
-Created by K. Ahammad Ali Khan
+Created by Thathireddy Gnanendra Reddy
 
 ## Acknowledgments
 
